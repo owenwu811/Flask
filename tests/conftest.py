@@ -1,8 +1,4 @@
-import os
-import pkgutil
-import sys
-
-import pytest
+import os, pkgutil, sys, pytest
 from _pytest import monkeypatch
 
 from flask import Flask
